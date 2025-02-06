@@ -10,7 +10,7 @@ class Novel extends Book {
     required this.genre,
   }) : super(title: title, author: author, releaseYear: releaseYear);
 
-  void bacaComic() {
+  void readNovel() {
     print('NOVEL');
   }
 
