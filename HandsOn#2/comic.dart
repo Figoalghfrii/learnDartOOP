@@ -10,7 +10,7 @@ class Comic extends Book {
     required this.volume,
   }) : super(title: title, author: author, releaseYear: releaseYear);
 
-  void bacaComic() {
+  void readComic() {
     print('COMIC');
   }
 
